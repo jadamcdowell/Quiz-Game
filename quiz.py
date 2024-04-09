@@ -116,3 +116,14 @@ if questions == 3:
 
         # keep track of incorrect answers
         incorrect += 1
+
+# calculate quiz grade
+grade = correct / questions * 100
+
+# print grade
+print("\n----------Quiz Results----------")
+print("Number of questions: " + str(questions) + "\nCorrect: " + str(correct) + "\tIncorrect: " + str(incorrect))
+print("Grade: " + str(grade) + "%")
+
+# thank user for participation
+print("\nThanks for playing! Have a good day!")
