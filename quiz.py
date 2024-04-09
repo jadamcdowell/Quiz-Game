@@ -31,3 +31,88 @@ while True:
     except ValueError:
         print("Invalid input. Please enter a number between 1 and 3")
 
+# variables to keep track of how many questions are correct and incorrect
+correct = 0
+incorrect = 0
+
+# continue if correct number is entered for num of questions
+
+# if 1 was entered for number of questions
+if questions == 1:
+    answer1 = input("\nWhat is 5 x 5? ")
+    if answer1 == "25":
+        print("Correct!")
+
+        # keep track of correct answers
+        correct += 1
+    else:
+        print("Incorrect! :(")
+
+        # keep track of incorrect answers
+        incorrect += 1
+
+
+# if 2 was entered for number of questions
+if questions == 2:
+    answer1 = input("\nWhat is 30 x 30? ")
+    if answer1 == "900":
+        print("Correct!")
+
+        # keep track of correct answers
+        correct += 1
+    else:
+        print("Incorrect! :(")
+
+        # keep track of incorrect answers
+        incorrect += 1
+
+    answer2 = input("\nWhat is the largest continent? ")
+    if answer2 == "Asia":
+        print("Correct!")
+
+        # keep track of correct answers
+        correct += 1
+    else:
+        print("Incorrect! :(")
+
+        # keep track of incorrect answers
+        incorrect += 1
+
+
+# if 3 was entered for number of questions
+if questions == 3:
+    answer1 = input("\nWhat is the largest planet in the solar system? ")
+    if answer1 == "Jupiter":
+        print("Correct!")
+
+        # keep track of correct answers
+        correct += 1
+    else:
+        print("Incorrect! :(")
+
+        # keep track of incorrect answers
+        incorrect += 1
+
+    answer2 = input("\nWhat is the chemical symbol for water? ")
+    if answer2 == "H20":
+        print("Correct!")
+
+        # keep track of correct answers
+        correct += 1
+    else:
+        print("Incorrect! :(")
+
+        # keep track of incorrect answers
+        incorrect += 1
+
+    answer3 = input("\nWhat is the 81 divide 9? ")
+    if answer3 == "9":
+        print("Correct!")
+
+        # keep track of correct answers
+        correct += 1
+    else:
+        print("Incorrect! :(")
+
+        # keep track of incorrect answers
+        incorrect += 1
