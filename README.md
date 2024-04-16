@@ -1,58 +1,16 @@
-Computer Quiz Program
-
-
-Welcome to the Computer Quiz Program! This Python program is a simple quiz game where users can test their knowledge on various topics.
-
-
-How It Works
-Getting Started: Upon running the program, users are prompted to enter their name and choose the number of questions they want to answer (between 1 and 3).
-
-Quiz Game: The program presents random questions from different topics such as mathematics, geography, and science. Users input their answers and receive immediate feedback on correctness.
-
-Results: After completing the quiz, the program calculates the user's grade based on the number of correct answers and displays the results.
-
-
-Features:
-
-Random selection of questions from predefined topics.
-
-Immediate feedback on user's answers.
-
-Calculation of user's grade based on correctness of answers.
-
-Simple and intuitive interface.
-
-
-Usage:
-
-Clone the repository to your local machine.
-
-Run the quiz.py file using a Python interpreter.
-
-Follow the on-screen prompts to enter your name, select the number of questions, and answer each question.
-
-
-Sample Output
+Computer Quiz
 
 Welcome to my computer quiz!
 
-What is your name? John
+How to Play:
+1. Enter Your Name: When prompted, enter your name.
 
-John, do you want to take a quiz? yes
+2. Start the Quiz: You'll be asked if you want to take the quiz. If you answer "yes," the quiz will begin.
 
-Let's play :)
+3. Answer the Questions: The quiz consists of multiple-choice questions. Answer each question by typing in your response.
 
-How many questions do you want? (between 1 and 3) 2
+4. Receive Feedback: After answering each question, the program will provide feedback, letting you know if your answer is correct or incorrect.
 
-Question 1: What is the capital of France? Paris
-Correct!
+5. View Results: Once you've completed the quiz, the program will display the number of questions you answered correctly, the number of questions you answered incorrectly, and your overall grade.
 
-Question 2: What is 5 x 5? 25
-Correct!
-
-----------Quiz Results----------
-Number of questions: 2
-Correct: 2     Incorrect: 0
-Grade: 100%
-
-Thanks for playing! Have a good day!
+6. Thank You: The program will thank you for participating in the quiz.
